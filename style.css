@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+
+    background-image: url(file:///C:/Users/Rajibul%20Islam/Desktop/PW%20SKILLS%20PROJECTS/RESTAURENT%20PROJECT/assests/pexels-maxyne-barcel-10402282%201.png);
+    font-family: 'Prompt', sans-serif;
+  
+   background-repeat: no-repeat;
+background-position:top;
+   background-size: cover;
+
+ 
+}
+header{
+    position: fixed;
+    width: 100%;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+   padding: 30px;
+}
+.img1{
+    width: 120px;
+ 
+}
+ul{
+    display: flex;
+    gap: 50px;
+}
+li{
+    list-style: none;
+    
+}
+ul>li>a{
+    text-decoration: none;
+    color: #f0ec0c;
+   font-size: small;
+   font-weight: bolder;
+}
+ul>li>a:hover{
+    border-bottom: 2.5px solid  #f0ec0c;
+    transition: .2s ease-in;
+    text-shadow: 0px 0px 5px  #f0ec0c;
+}
+.botton1{
+    height: 30px;
+    width: 100px;
+    color: #ffffff;
+    background-color: #ff2f00;
+  font-weight: bolder;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.botton1:hover{
+    box-shadow: 0px 0px 10px 5px #ff2f00;
+    transition: .3s ease-in-out;
+}
+main{
+    display: flex;
+   flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  
+}
+.p{
+    
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   
+    
+}
+
+p{
+    font-size: 80px;
+    color: #f0ec0c;
+    font-weight: bolder;
+   
+  
+    
+}
+
+
+
+.botton2{
+    height: 50px;
+    width: 180px; 
+    color: #ffffff;
+    background-color: #ff2f00;
+  font-weight: bolder;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #000000;
+}
+.botton2:hover{
+    box-shadow: 0px 0px 10px 5px #ff2f00;
+    transition: .3s ease-in-out;
+}
+.img2{
+    width: 120px;
+    position: relative;
+   left: 90%;
+   bottom: 10%;
+}
